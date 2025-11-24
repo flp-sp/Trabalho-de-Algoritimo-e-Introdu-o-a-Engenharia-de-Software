@@ -33,7 +33,7 @@ RF05 | O sistema deve exibir os dados cadastrados.
 ### Caso de Teste 2 – Nome inválido
 | Item | Valor |
 |------|--------|
-| **Entrada** | Nome: “Jo”, Email: “joao@dominio.com”, Idade: 30 |
+| **Entrada** | Nome: “J”, Email: “joao@dominio.com”, Idade: 30 |
 | **Resultado Esperado** | Erro: “Nome deve ter mais de 1 caracter.” <br> Solicitar nova entrada. |
 
 ---
