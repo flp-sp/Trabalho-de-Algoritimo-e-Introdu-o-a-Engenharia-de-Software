@@ -14,11 +14,11 @@ RF05 | O sistema deve exibir os dados cadastrados.
 
 ---
 ## Fluxograma
-1.Entrada de dados do usuário
-2.Validação dos dados do usuário
-    1.Se idade maior que 0, e-mail contendo “@dominio” e nome maior que dois caracteres o sistema prossegue
-    2.Senão o sistema pede que o usuário tente novamente cadastrar um usuário
-3.Repete para 5 usuários
-4.Mostra os dados dos usuários cadastrados
+1. Entrada de dados do usuário
+2. Validação dos dados do usuário
+    1. Se idade maior que 0, e-mail contendo “@dominio” e nome maior que dois caracteres o sistema prossegue
+    2. Senão o sistema pede que o usuário tente novamente cadastrar um usuário
+3. Repete para 5 usuários
+4. Mostra os dados dos usuários cadastrados
 ---
 ## Plano de testes
