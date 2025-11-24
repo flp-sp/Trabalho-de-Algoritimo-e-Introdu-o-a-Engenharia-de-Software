@@ -63,11 +63,10 @@ RF05 | O sistema deve exibir os dados cadastrados.
 ---
 
 ### Caso de Teste 6 – Exibição dos dados
-| Item | Valor |
-|------|--------|
-| **Entrada** | Após terminar os cadastros |
-| **Resultado Esperado** | Exibir algo como:
+```
 Usuário 1: Ana Silva, ana@dominio.com, 25
 Usuário 2: João Pedro, joao@dominio.com, 19
-...
-|
+Usuário 3: Pedro André, pedro@dominio.com, 25
+Usuário 4: João Carlos, carlos@dominio.com, 27
+Usuário 5: Monica Silva, monica@dominio.com, 43
+```
