@@ -7,7 +7,7 @@ Dificuldade de armazenamento e consulta de dados de usúarios de forma prática 
 Número | Requisito
 ------ | ---------
 RF01 | O sistema deve pedir os dados do usuário (nome, e-mail, idade).
-RF02 | O sistema deve validar se os dados inseridos são válidos(Idade maior que 0, e-mail contendo “@dominio”, nome maior que dois caracteres).
+RF02 | O sistema deve validar se os dados inseridos são válidos(Idade maior que 0, e-mail contendo “@dominio”, nome maior que um caracter).
 RF03 | O sistema deve armazenar os dados do usuário em um dict ou lista(a definir).
 RF04 | O sistema deve repetir o processo com 5 usuários.
 RF05 | O sistema deve exibir os dados cadastrados.
@@ -16,7 +16,7 @@ RF05 | O sistema deve exibir os dados cadastrados.
 ## Fluxograma
 1. Entrada de dados do usuário
 2. Validação dos dados do usuário
-    1. Se idade maior que 0, e-mail contendo “@dominio” e nome maior que dois caracteres o sistema prossegue
+    1. Se idade maior que 0, e-mail contendo “@dominio” e nome maior que um caracter o sistema prossegue
     2. Senão o sistema pede que o usuário tente novamente cadastrar um usuário
 3. Repete para 5 usuários
 4. Mostra os dados dos usuários cadastrados
@@ -34,7 +34,7 @@ RF05 | O sistema deve exibir os dados cadastrados.
 | Item | Valor |
 |------|--------|
 | **Entrada** | Nome: “Jo”, Email: “joao@dominio.com”, Idade: 30 |
-| **Resultado Esperado** | Erro: “Nome deve ter mais de 2 caracteres.” <br> Solicitar nova entrada. |
+| **Resultado Esperado** | Erro: “Nome deve ter mais de 1 caracter.” <br> Solicitar nova entrada. |
 
 ---
 
