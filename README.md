@@ -3,7 +3,7 @@
 ## Descrição do problema
 ---
 ## Requisitos funcionais
--RF01 - O sistema deve pedir os dados do usuário (nome, e-mail, idade).
+RF01 | O sistema deve pedir os dados do usuário (nome, e-mail, idade).
 
 -RF02 - O sistema deve validar se os dados inseridos são válidos(Idade maior que 0, e-mail contendo “@dominio”, nome maior que dois caracteres).
 
@@ -15,5 +15,6 @@
 
 ---
 ## Fluxograma
+Sistema 
 ---
 ## Plano de testes
