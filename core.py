@@ -5,7 +5,8 @@
 dict = {}
 
 def verificar_credenciais(nome, idade, email):
-    pass
+    check = False #variavel que dita se as credenciais sao validas
+    return check
 
 def add_no_dict(nome, idade, email):
     pass
