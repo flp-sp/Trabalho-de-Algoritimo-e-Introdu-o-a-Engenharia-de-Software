@@ -82,11 +82,11 @@ FIM_ALGORITIMO
 
 ---
 
-### Caso de Teste 5 – 5 cadastros completos
+### Caso de Teste 5 – cadastros completos
 | Item | Valor |
 |------|--------|
-| **Entrada** | Cinco usuários válidos cadastrados |
-| **Resultado Esperado** | Exibir lista final com os 5 usuários armazenados corretamente. |
+| **Entrada** | Nome = "0" |
+| **Resultado Esperado** | Exibir lista final com todos os usuários armazenados corretamente. |
 
 ---
 
@@ -97,4 +97,5 @@ Usuário 2: João Pedro, joao@dominio.com, 19
 Usuário 3: Pedro André, pedro@dominio.com, 25
 Usuário 4: João Carlos, carlos@dominio.com, 27
 Usuário 5: Monica Silva, monica@dominio.com, 43
+...
 ```
