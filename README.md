@@ -13,13 +13,41 @@ RF04 | O sistema deve repetir o processo até o usuário digitar 0.
 RF05 | O sistema deve exibir os dados cadastrados.
 
 ---
-## Fluxograma
-1. Entrada de dados do usuário
-2. Validação dos dados do usuário
-    1. Se idade maior que 0, e-mail contendo “@dominio” e nome maior que um caracter o sistema prossegue
-    2. Senão o sistema pede que o usuário tente novamente cadastrar um usuário
-3. Repete para 5 usuários
-4. Mostra os dados dos usuários cadastrados
+## Pseudocódigo
+```
+ALGORITIMO
+
+DECLARE usuários_válidos dicionario
+
+ENQUANTO verdadeiro:
+    MOSTRAR "Digite o nome (0 para sair): "
+    LER nome
+
+    SE nome == 0:
+        RETORNE
+
+    MOSTRAR "Digite a idade: "
+    LER idade
+
+    MOSTRAR "Digite o e-mail: "
+    LER email
+
+    SE idade > 0 E tamanho(nome) > 1 E email contém "@dominio":
+        salvar dados no dicionario:
+            usuários_válidos[nome] = { "idade": idade, "email": email }
+        MOSTRAR "Usuário cadastrado com sucesso!"
+    SENÃO:
+        MOSTRAR "Dados inválidos. Tente novamente."
+    FIM SE
+
+FIM ENQUANTO
+
+MOSTRAR "Usuários cadastrados:"
+PARA cada usuário em usuários_válidos:
+    moMOSTRARstrar nome, idade e email
+
+FIM_ALGORITIMO
+```
 ---
 ## Plano de testes
 ### Caso de Teste 1 – Cadastro válido
