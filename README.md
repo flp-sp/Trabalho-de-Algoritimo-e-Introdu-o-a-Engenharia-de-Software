@@ -2,8 +2,10 @@
 ---
 ## Alunos
 Francisco Felipe Sampaio Neto
-
-
+Antônio Vitor Ferreira Viana
+Antonio Vitor De Matos Cruz
+Luiz Eduardo Carvalho de Sousa
+Arthur Morais Zeidan
 
 ---
 ## Descrição do problema
