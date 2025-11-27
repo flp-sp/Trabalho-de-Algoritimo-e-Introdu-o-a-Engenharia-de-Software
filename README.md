@@ -1,11 +1,11 @@
 # Projeto de Software Simples com Documentação e Codificação em C ou Python
 ---
 ## Alunos
-Francisco Felipe Sampaio Neto
-Antônio Vitor Ferreira Viana
-Antonio Vitor De Matos Cruz
-Luiz Eduardo Carvalho de Sousa
-Arthur Morais Zeidan
+Francisco Felipe Sampaio Neto<br>
+Antônio Vitor Ferreira Viana<br>
+Antonio Vitor De Matos Cruz<br>
+Luiz Eduardo Carvalho de Sousa<br>
+Arthur Morais Zeidan<br>
 
 ---
 ## Descrição do problema
