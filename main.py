@@ -21,8 +21,6 @@ while True: #loop do aplicativo
     if verificar_credenciais(nome, idade, email): #chama função que verifica se as variaveis atendem ao requisitos do sistema
         add_no_dict(nome, idade, email) #chama função que adiciona as variaveis, apos validas, no dicionario
     else:
-        print("\n============================")
-        print(" ERRO: Credenciais inválidas")
-        print("============================\n")
+        pass
 
 listar() #chama função que lista os itens no dicionario
