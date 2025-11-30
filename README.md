@@ -61,7 +61,7 @@ FIM_ALGORITIMO
 ### Caso de Teste 1 – Cadastro válido
 | Item | Valor |
 |------|--------|
-| **Entrada** | Nome: “Ana Silva”, Email: “ana@dominio.com”, Idade: 25 |
+| **Entrada** | Nome: “Ana Silva”, Email: “ana@dominio”, Idade: 25 |
 | **Resultado Esperado** | Dados aceitos e armazenados na lista/dicionário. Nenhuma mensagem de erro. |
 
 ---
@@ -69,7 +69,7 @@ FIM_ALGORITIMO
 ### Caso de Teste 2 – Nome inválido
 | Item | Valor |
 |------|--------|
-| **Entrada** | Nome: “J”, Email: “joao@dominio.com”, Idade: 30 |
+| **Entrada** | Nome: “J”, Email: “joao@dominio”, Idade: 30 |
 | **Resultado Esperado** | Erro: “Nome deve ter mais de 1 caracter.” <br> Solicitar nova entrada. |
 
 ---
@@ -77,20 +77,28 @@ FIM_ALGORITIMO
 ### Caso de Teste 3 – Email inválido
 | Item | Valor |
 |------|--------|
-| **Entrada** | Nome: “Carlos”, Email: “carlosgmail.com”, Idade: 22 |
+| **Entrada** | Nome: “Carlos”, Email: “carlosgmail”, Idade: 22 |
 | **Resultado Esperado** | Erro: “E-mail inválido. Deve conter ‘@dominio’.” <br> Solicitar nova entrada. |
 
 ---
 
-### Caso de Teste 4 – Idade inválida
+### Caso de Teste 4 – Idade com número inválido
 | Item | Valor |
 |------|--------|
-| **Entrada** | Nome: “Marina”, Email: “marina@dominio.com”, Idade: -5 |
+| **Entrada** | Nome: “Marina”, Email: “marina@dominio”, Idade: -5 |
 | **Resultado Esperado** | Erro: “Idade deve ser maior que 0.” <br> Solicitar nova entrada. |
 
 ---
 
-### Caso de Teste 5 – cadastros completos
+### Caso de Teste 5 – Idade não sendo número
+| Item | Valor |
+|------|--------|
+| **Entrada** | Nome: “Anderson”, Email: “adnson@dominio”, Idade: hf |
+| **Resultado Esperado** | Erro: Idade deve ser um número.” <br> Solicitar nova entrada. |
+
+---
+
+### Caso de Teste 6 – cadastros completos
 | Item | Valor |
 |------|--------|
 | **Entrada** | Nome = "0" |
