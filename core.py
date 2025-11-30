@@ -20,12 +20,12 @@ def verificar_credenciais(nome, idade, email):
         return False
 
     # Idade precisa ser maior que 0
-    if idade <= 0:
+    if int(idade) <= 0:
         print("Erro: Idade deve ser maior que 0.")
         return False
 
     # Email deve conter '@dominio' conforme requisitos
-    if "@dominio" not in email:
+    if "@" not in email or "." not in email:
         print("Erro: Email inválido. Deve conter '@dominio'.")
         return False
 
