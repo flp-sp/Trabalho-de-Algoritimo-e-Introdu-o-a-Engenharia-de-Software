@@ -10,9 +10,6 @@ while True: #loop do aplicativo
     nome = input("Insira o nome: ") #variavel que recebe o nome do usuario
 
     if nome == '0': #condicao para verificar quando o usuario deseja sair do sistema
-        print("\n============================")
-        print("Lista dos usuarios cadastrados")
-        print("============================\n")
         break
 
     idade = input("Insira a idade: ") #variavel que recebe a idade do usuario
